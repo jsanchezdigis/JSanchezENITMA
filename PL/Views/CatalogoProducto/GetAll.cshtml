@@ -1,0 +1,47 @@
+﻿@model Proyecto_ENT.Exa_CatalogoProducto
+@{
+    ViewBag.Title = "GetAll";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    @Html.ActionLink("Nuevo","Form","CatalogoProducto", htmlAttributes: new { @class = "btn btn-success" })
+</div>
+<div class="container">
+    <div class="row">
+        @if (Model.CatalogoProductos != null)
+        {
+            <table class="table table-bordered table-responsive">
+                <thead>
+                    <tr>
+                        <td class="text-center">Editar</td>
+
+                        <td style="display:none;">IdProducto</td>
+                        <td class="text-center">Descripcion</td>
+                        <td class="text-center">IdUsuario</td>
+                        <td class="text-center">Fecha Creacion</td>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (Proyecto_ENT.Exa_CatalogoProducto catalogoProducto in Model.CatalogoProductos)
+                    {
+                        <tr>
+                            <td class="text-center"><a class="btn btn-warning" href="@Url.Action("Form","CatalogoProducto", new { IdProducto = catalogoProducto.IdProducto })"></a></td>
+
+                            <td style="display:none;">@catalogoProducto.IdProducto</td>
+                            <td class="text-center">@catalogoProducto.Descripcion</td>
+                            <td class="text-center">@catalogoProducto.IdUsuario</td>
+                            <td class="text-center">@catalogoProducto.FechaCreacion</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <div class="alert alert-danger" role="alert">Ocurrio un error al realizar la consulta</div>
+        }
+    </div>
+</div>
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="06196f20-6308-49d9-ae70-8a7cdcefdacc" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:61836/Exa_CatalogoProducto.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Exa_CatalogoProducto.xsd" MetadataType="Schema" ID="fb3e8327-1a43-44c1-b5e6-6718b2128345" SourceId="1" SourceUrl="http://localhost:61836/Exa_CatalogoProducto.svc?xsd=xsd2" />
+    <MetadataFile FileName="Exa_CatalogoProducto.disco" MetadataType="Disco" ID="0b3a9948-57bc-45f5-aa71-6298ffbc6dd8" SourceId="1" SourceUrl="http://localhost:61836/Exa_CatalogoProducto.svc?disco" />
+    <MetadataFile FileName="Exa_CatalogoProducto1.xsd" MetadataType="Schema" ID="361e6d14-523b-40af-8733-b90482da8cd3" SourceId="1" SourceUrl="http://localhost:61836/Exa_CatalogoProducto.svc?xsd=xsd1" />
+    <MetadataFile FileName="Exa_CatalogoProducto.wsdl" MetadataType="Wsdl" ID="92b68097-f745-4632-a25f-9c9dc9b53293" SourceId="1" SourceUrl="http://localhost:61836/Exa_CatalogoProducto.svc?wsdl" />
+    <MetadataFile FileName="Exa_CatalogoProducto2.xsd" MetadataType="Schema" ID="7814c2d4-27c5-40ad-adbc-85f018febef6" SourceId="1" SourceUrl="http://localhost:61836/Exa_CatalogoProducto.svc?xsd=xsd0" />
+    <MetadataFile FileName="Exa_CatalogoProducto3.xsd" MetadataType="Schema" ID="c6692a34-6d55-47fc-94fe-0663d6b55983" SourceId="1" SourceUrl="http://localhost:61836/Exa_CatalogoProducto.svc?xsd=xsd4" />
+    <MetadataFile FileName="Exa_CatalogoProducto4.xsd" MetadataType="Schema" ID="7da1bfd5-0547-4bb2-8b51-ffbedffa007b" SourceId="1" SourceUrl="http://localhost:61836/Exa_CatalogoProducto.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
